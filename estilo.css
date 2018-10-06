@@ -24,8 +24,9 @@ header {
 
 .botao-outline {
 	border: 2px solid white;
-	border-radius: 20px;
+	border-radius: 40px;
 	padding: 10px;
+	display: inline-block;
 }
 
 .header-topo .botao-outline {
@@ -47,9 +48,43 @@ header {
 	font-weight: bolder;
 	text-transform: uppercase;
 	color: white;
+	margin-bottom: 30px;
 }	
 
 .header-conteudo h3 {
 	color: white;
+	margin-bottom: 30px;
+}
+
+.botao-solido {
+	background-color:#ff4e50;
+	color: white;
+	border-radius: 40px;
+	padding: 10px 30px;
+	font-weight: bolder;
+	display: inline-block;
+}
+
+@media (max-width: 500px) {
+		
+		.header-conteudo {
+			padding-left: 0;
+			padding-right: 0;
+			padding-top: 20px;
+		}
+
+		.header-topo {
+			flex-direction: column;
+		}
+
+		.header-topo .logo {
+			order: 2;	
+		}
+
+		.header-topo nav {
+			order: 1;
+			margin-bottom: 50px;
+		}
+
 	
 }
