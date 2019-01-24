@@ -86,3 +86,98 @@ header {
 
 	
 }
+
+.bolder {
+	font-weight: bolder;	
+}
+
+.card {
+	border: 0;
+	border-radius: 40px !important;
+}
+
+.badge {
+	background-color: #ff4e50;
+	margin-top: 250px;
+}
+
+.card-title {
+	font-weight: bolder;
+}
+
+.card-img {
+	filter: brightness(65%);
+}
+
+.btn-outline-primary {
+	border-radius: 30px;
+	color: #ff4e50;
+	border-color: #ff4e50;
+}
+
+.btn-outline-primary:hover {
+	color: white;
+	background-color: #ff4e50;
+	border: 0;
+}
+
+.link-cartao {
+	background-size: cover;
+    background-position: center;
+	background: red;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 30px;
+	height: 300px;
+	font-size: 22px;
+	text-align: center;
+    text-shadow: 0px 0px 10px #000000;
+    font-weight: bold;
+    color: white;
+    transition: all 0.2s;
+}
+
+.link-cartao:hover {
+    color: white;
+    text-shadow: 0px 0px 10px #000000;
+    text-decoration: none;
+    transition: all 0.2s;
+    transform: scale(1.05);
+    opacity: 0.8;
+}
+
+.link-cartao.sports {
+	background-image: url(imagens/sports.jpg);
+	background-size: cover;
+}
+
+.link-cartao.wellness {
+	background-image: url(imagens/wellness.png);
+	background-size: cover;
+}
+
+.link-cartao.extreme {
+    background-image: url(imagens/extreme-sports.png);
+	background-size: cover;
+}
+
+.link-cartao.games {
+    background-image: url(imagens/games.png);
+	background-size: cover;
+}
+
+.link-cartao.culture {
+    background-image: url(imagens/culture.jpg);
+	background-size: cover;
+}
+
+.link-cartao.enjomet {
+    background-image: url(imagens/relax.jpg);
+	background-size: cover;
+}
+
+.link-cartao.trevelling {
+    background-image: url(imagens/travelling.jpg);
+	background-size: cover;
+}
